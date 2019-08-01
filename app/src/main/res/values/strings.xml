@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">gigEconomy</string>
+    <string name="email_hint">E-mail:</string>
+    <string name="hint_password">Password:</string>
+    <string name="login_btn_text">Login to Account</string>
+    <string name="register_btn_text">Sign up ?!</string>
+    <string name="reg_btn_text">Create new Account</string>
+    <string name="reg_log_btn_text">Already have an Account?</string>
+    <string name="name_text">Name:</string>
+    <string name="nameHint">Name:</string>
+    <string name="confirmHint">Confirm Password:</string>
+    <string name="logoutText">Logout</string>
+</resources>

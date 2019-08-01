@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "569378866697",
+    "firebase_url": "https://gigeconomy-7cc5e-4896f.firebaseio.com",
+    "project_id": "gigeconomy-7cc5e",
+    "storage_bucket": "gigeconomy-7cc5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569378866697:android:b8e5ef07ef1461cd",
+        "android_client_info": {
+          "package_name": "com.example.gigeconomy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569378866697-ss7p7linta0ef3h24h354nkm8jbmf7hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gigeconomy",
+            "certificate_hash": "7a9b8cb47b35e8078c53bc01b8816a2224498a76"
+          }
+        },
+        {
+          "client_id": "569378866697-ondsr683cvj820luimtb4bno24d8aqkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqdMN4w_BkyIyX7QYmoULQ19W4EbRqCkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569378866697-ondsr683cvj820luimtb4bno24d8aqkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

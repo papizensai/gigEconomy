@@ -8,6 +8,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toolbar;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -17,6 +18,8 @@ public class MainActivity extends AppCompatActivity
 {
     private FirebaseAuth mAuth;
     private Button logout;
+    private EditText name;
+    private Button tripBttn;
 
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -28,6 +31,8 @@ public class MainActivity extends AppCompatActivity
 
         mAuth = FirebaseAuth.getInstance();
         logout = findViewById(R.id.logoutBttn);
+
+        tripBttn = findViewById(R.id.tripBttn);
     }
 
     @Override
@@ -55,7 +60,16 @@ public class MainActivity extends AppCompatActivity
                 logOut();
             }
         });
+
+        tripBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tripIntent = new Intent (MainActivity.this, TripActivity.class);
+                startActivity(tripIntent);
+            }
+        });
     }
+
 
     // signs user outs and sends to login
     private void logOut()

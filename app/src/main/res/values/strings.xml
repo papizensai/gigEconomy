@@ -10,4 +10,8 @@
     <string name="nameHint">Name:</string>
     <string name="confirmHint">Confirm Password:</string>
     <string name="logoutText">Logout</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="cName">Name</string>
+    <string name="title_activity_trip">TripActivity</string>
+    <string name="Submit">submit</string>
 </resources>

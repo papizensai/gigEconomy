@@ -14,4 +14,8 @@
     <string name="cName">Name</string>
     <string name="title_activity_trip">TripActivity</string>
     <string name="Submit">submit</string>
+    <string name="payText">Pay: $</string>
+    <string name="tmaText">Total Amount Made</string>
+    <string name="aText">Add Trip</string>
+    <string name="dText">Add Day</string>
 </resources>
